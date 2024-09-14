@@ -105,10 +105,8 @@ int main(){
 	*/
 	///*
 		cin>>n;
-		//Question_3
-		//sliding window for count of maximum Elements which forms a subset in an array of size 
-		//with min,max difference between them
-		//as k;
+		//Question_2
+		// meet in middle with left array and right array having subsequences sorted in ascending order to sum up to target k as first number
 		for(i=0;i<n;i++){
 			cin>>x;
 			arr.push_back(x);
